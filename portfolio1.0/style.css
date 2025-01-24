@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+    color:white;
+
+    
+  background: linear-gradient(-55deg, #000000, #00081f, #07182c, #00053a);
+  background-size: 400% 400%;
+  animation: gradientBackground 3s ease infinite;
+}
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+/* Animação do gradiente */
+@keyframes gradientBackground {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+html{
+    scroll-behavior: smooth;
+}
+.whats{
+    margin-left: 47%;
+    margin-top: 30px;
+    width: 40px;
+    height: 40px;
+}
+.inst{
+    margin-left: 0%;
+    width: 40px;
+    height: 40px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.pailist{
+    font-family: "Archivo Black", serif;
+    list-style: none;
+    display: flex ;
+    justify-content: space-evenly;
+    font-size: 25px;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+.apre{
+    margin-top: 20%;
+    text-align: center;
+}
+h1{
+    font-size:90px;
+    -webkit-text-stroke: 1px rgb(30, 30, 212);
+    color: transparent;
+    font-family: "Archivo Black", serif;
+}
+.apresentacao{
+    font-size: 25px;
+    font-family: 'arimo' serif;
+}
+
+#mim{
+    display: flex;
+    margin-left: 47%;
+    margin-top: 30%;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+}
+.sobremim{
+    margin-top: 5%;
+    font-size: 20px; 
+    width: 70%;   
+    margin-left: 20%;
+    text-align: justify;
+}
+#proj{
+    margin-left: 48%;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    margin-top: 10%;
+    text-transform: uppercase;
+}
+.paiproj{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin-left: 70px;
+    margin-top: 20%;
+}
+.proj1{
+    background-color: rgb(13, 13, 50);
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: transparent;
+    border: solid 2px #03030b ;
+}
+.proj2{
+    background-color: rgb(13, 13, 50);
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: transparent;
+    border: solid 2px #03030b;
+}
+.proj3{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: transparent;
+    border: solid 2px #03030b;
+}
+#hab{
+    font-size: 30px;
+    margin-left: 47%;
+    display: flex;
+    margin-top: 15%;
+    text-transform: uppercase;
+}
+.paihab{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin-left: 70px;
+    margin-top: 15%;
+    margin-bottom: 50px;
+}
+.analise{
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: transparent;
+    border: solid 2px #03030b;
+    box-shadow: 0 6px 88px rgb(13, 13, 50);
+    text-align: justify;
+    padding: 5px;
+}
+.an{
+    text-transform: uppercase;
+}
+.ht{
+    text-transform: uppercase;
+}
+.ja{
+    text-transform: uppercase;
+}
+
+.css{
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: transparent;
+    border: solid 2px #03030b;
+    box-shadow: 0 6px 8px rgb(13, 13, 50);
+    text-align: justify;
+    padding: 5px;
+}
+
+.js{
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: transparent;
+    border: solid 2px #03030b;
+    box-shadow: 0 6px 88px rgb(13, 13, 50);
+    text-align: justify;
+    padding: 5px;
+}
+.css:hover{
+    box-shadow: 0 6px 88px rgb(17, 17, 65);
+    transition: 0.5s;
+}
+.js:hover{
+    box-shadow: 0 6px 88px rgb(17, 17, 65);
+    transition: 0.5s;
+}
+.analise:hover{
+    box-shadow: 0 6px 88px rgb(17, 17, 65);
+    transition: 0.5s;
+}
+.proj1:hover{
+    box-shadow: 0 6px 88px rgb(13, 13, 50);
+    transition: 0.5s;
+}
+.proj2:hover{
+    box-shadow: 0 6px 88px rgb(13, 13, 50);
+    transition: 0.5s;
+}
+.proj3:hover{
+    box-shadow: 0 6px 88px rgb(13, 13, 50);
+    transition: 0.5s;
+}
